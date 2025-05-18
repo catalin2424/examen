@@ -1,13 +1,4 @@
 
-let quizData = [];
-
-fetch('examen_quiz_data.json')
-  .then(response => response.json())
-  .then(data => {
-    quizData = data;
-    createQuiz();
-  });
-
 function createQuiz() {
   const container = document.getElementById("quiz-container");
   quizData.forEach((q, i) => {
@@ -41,3 +32,5 @@ function checkQuestion(index) {
     feedback.innerHTML = `<span style='color: red;'>Incorrect. Try again.</span><br><em>Correct answers: ${correctOptions}</em>`;
   }
 }
+
+document.addEventListener("DOMContentLoaded", createQuiz);

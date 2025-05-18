@@ -1,0 +1,70 @@
+const quizData = [
+  {
+    "question": "What are the fundamental principles behind Mulligan Concept?",
+    "options": [
+      "Mobilisation is applied passively without patient effort",
+      "The technique must be pain-free",
+      "Mobilisation is sustained while the patient performs a movement",
+      "Immediate improvement must be observed to consider it effective"
+    ],
+    "correct": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "Which of the following are indications for the Mulligan technique?",
+    "options": [
+      "Local joint pain with movement loss",
+      "Neurological signs such as radiculopathy",
+      "Movement restriction without pain",
+      "Mechanical joint dysfunction with a positive PAIVM"
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "question": "Which statements about NAGs (Natural Apophyseal Glides) are correct?",
+    "options": [
+      "They are oscillatory mobilisations",
+      "They are applied in an antero-cranial direction",
+      "They are typically performed in prone",
+      "They can produce a neurophysiological analgesic effect"
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "question": "Which errors reduce the effectiveness of a NAG?",
+    "options": [
+      "Mobilising in a direction not aligned with the facet plane",
+      "Applying overpressure at end range",
+      "Repetitive mobilisations in the presence of increasing symptoms",
+      "Performing the technique in a weight-bearing position"
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "question": "What distinguishes a SNAG from a NAG?",
+    "options": [
+      "SNAG involves patient movement during the glide",
+      "SNAG is performed in the weight-bearing position",
+      "NAG is applied during active motion",
+      "SNAG is sustained throughout the movement arc"
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  }
+];
